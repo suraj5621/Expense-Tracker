@@ -1,5 +1,5 @@
 
-# 🚀 Full Stack Project
+# 🚀 Full Stack Project Expense-Tracker
 
 A full-stack web application built with **Node.js** (Express) for the backend and **React** (Vite) for the frontend.  
 Database used is **MongoDB Atlas**.
@@ -50,7 +50,7 @@ npm install
 Create a `.env` file inside `backend/` folder with the following:
 
 ```env
-MONGO_URI=your-mongodb-atlas-connection-string
+dbURL=your-mongodb-atlas-connection-string
 ```
 
 (Replace `your-mongodb-atlas-connection-string` with your actual MongoDB URI.)
@@ -63,7 +63,7 @@ MONGO_URI=your-mongodb-atlas-connection-string
 npm start
 ```
 
-- Server will run at: `http://localhost:5000` (default)
+- Server will run at: `http://localhost:8080` 
 
 ---
 
@@ -101,13 +101,6 @@ npm run dev
 | React (Vite) | Frontend |
 | Node.js + Express | Backend |
 | MongoDB Atlas | Database |
-
----
-
-## 📢 Important Points
-
-- Update API URLs correctly in frontend if backend is deployed separately.
-- Ensure network/firewall settings allow MongoDB Atlas connection.
 
 ---
 
