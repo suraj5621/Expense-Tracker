@@ -32,9 +32,9 @@ Database used is **MongoDB Atlas**.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+git clone https://github.com/suraj5621/Expense-Tracker.git
 ```
+
 
 ---
 
